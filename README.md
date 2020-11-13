@@ -86,7 +86,7 @@ Następnie gracz może wpisać z klawiatury komendę, na przykład:
 ## Punktacja
 Wykonanie projektu oceniane będzie w zależności od wykorzystanej funkcjonalności języka C++.
 W sumie możliwe jest uzyskanie 15p.
-Dokładniej:
+Punkty przyznawane są jak następuje:
 - Program nie kompiluje się lub nie spełnia przedstawionych wyżej wymagań - 0p.
 - Program kompiluje się i zachowuje się zgodnie z oczekiwaniami - 8p.
 - Program używa wirtualnego polimorfizmu - 11p.
