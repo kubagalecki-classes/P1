@@ -71,7 +71,7 @@ historia_przych : double[N]
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>682</x>
+      <x>671</x>
       <y>198</y>
       <w>187</w>
       <h>110</h>
@@ -178,13 +178,13 @@ historia_przych : double[N]
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>858</x>
+      <x>847</x>
       <y>253</y>
-      <w>99</w>
+      <w>110</w>
       <h>33</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;&gt;</panel_attributes>
-    <additional_attributes>10.0;10.0;70.0;10.0</additional_attributes>
+    <additional_attributes>10.0;10.0;80.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
