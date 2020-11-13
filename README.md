@@ -107,12 +107,12 @@ Projekt za 8p:
 
 Projekt za 11p:
 
-![projekt_8p](P1_11p_diag.png)
+![projekt_11p](P1_11p_diag.png)
 
 Projekt za 13p:
 
-![projekt_8p](P1_13p_diag.png)
+![projekt_13p](P1_13p_diag.png)
 
 Projekt za 15p:
 
-![projekt_8p](P1_15p_diag.png)
+![projekt_15p](P1_15p_diag.png)
