@@ -4,10 +4,10 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>352</x>
-      <y>154</y>
+      <x>363</x>
+      <y>308</y>
       <w>528</w>
-      <h>275</h>
+      <h>176</h>
     </coordinates>
     <panel_attributes>Gra
 --
@@ -15,12 +15,6 @@
 +get_stan() : bool
 
 -tick() : void
--drukuj_pracownikow() const : void
--wez_kredyt(double kwota, int czas_splaty) : void
--zatrudnij_inz (const std::string&amp; imie, const std::string&amp; wydzial) : void
--zatrudnij_Mag (const std::string&amp; imie, bool woz_widl) : void
--zatrudnij_Mkt (const std::string&amp; imie, int follows) : void
--zatrudnij_Rob (const std::string&amp; imie, double but) : void
 --
 
 -stan : bool
@@ -77,8 +71,8 @@ historia_przych : double[N]
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1023</x>
-      <y>44</y>
+      <x>671</x>
+      <y>176</y>
       <w>187</w>
       <h>110</h>
     </coordinates>
@@ -95,7 +89,7 @@ historia_przych : double[N]
     <id>UMLClass</id>
     <coordinates>
       <x>440</x>
-      <y>506</y>
+      <y>561</y>
       <w>176</w>
       <h>121</h>
     </coordinates>
@@ -112,7 +106,7 @@ historia_przych : double[N]
     <id>UMLClass</id>
     <coordinates>
       <x>440</x>
-      <y>649</y>
+      <y>704</y>
       <w>176</w>
       <h>121</h>
     </coordinates>
@@ -129,7 +123,7 @@ historia_przych : double[N]
     <id>UMLClass</id>
     <coordinates>
       <x>649</x>
-      <y>506</y>
+      <y>561</y>
       <w>176</w>
       <h>121</h>
     </coordinates>
@@ -146,7 +140,7 @@ historia_przych : double[N]
     <id>UMLClass</id>
     <coordinates>
       <x>649</x>
-      <y>649</y>
+      <y>704</y>
       <w>176</w>
       <h>121</h>
     </coordinates>
@@ -163,7 +157,7 @@ historia_przych : double[N]
     <id>UMLPackage</id>
     <coordinates>
       <x>407</x>
-      <y>451</y>
+      <y>506</y>
       <w>451</w>
       <h>341</h>
     </coordinates>
@@ -174,7 +168,7 @@ historia_przych : double[N]
     <id>Relation</id>
     <coordinates>
       <x>847</x>
-      <y>627</y>
+      <y>682</y>
       <w>110</w>
       <h>33</h>
     </coordinates>
@@ -184,30 +178,30 @@ historia_przych : double[N]
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1111</x>
-      <y>143</y>
-      <w>33</w>
-      <h>77</h>
+      <x>847</x>
+      <y>242</y>
+      <w>110</w>
+      <h>33</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;&gt;</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
+    <additional_attributes>10.0;10.0;80.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>869</x>
-      <y>319</y>
-      <w>88</w>
+      <x>880</x>
+      <y>374</y>
+      <w>77</w>
       <h>33</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;60.0;10.0</additional_attributes>
+    <additional_attributes>10.0;10.0;50.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>638</x>
-      <y>418</y>
+      <x>649</x>
+      <y>473</y>
       <w>33</w>
       <h>77</h>
     </coordinates>

@@ -20,8 +20,8 @@ Firma może zatrudniać następujące typy pracowników
 - Robotni(k/czka) - produkuje produkty (generuje podaż)
 
 Każdy pracownik ma imię oraz ustalone wynagrodzenie, które musi zostać wypłacone na koniec miesiąca.
-Cechy te ustalane są w chwili zatrudnienia danego pracownika (mogą, ale nie muszą być losowe).
-Gra powinna dać możliwość wyświetlenia listy zatrudnionych pracowników wraz z ich cechami (kolejność może być dowolna).
+Imię jest ustalane w trakcie zatrudniania pracownika (możesz użyć dostarczonego przez prowadzącego generatora imion losowych).
+Wynagrodzenie jest stałe dla wszystkich pracowników danego typu (np. wszyscy inżynierowie zarabiają X).
 
 Każdy typ pracownika posiada zdefiniowaną stałą wydajności, ustalaną w jednym miejscu w kodzie (zapewne jako stałe pole statyczne odpowiednich klas).
 Stałe wydajności oznaczmy (w kolejności zawodów wymienionej wyżej): `CI`, `CMag`, `CMkt`, `CR`.
@@ -32,7 +32,7 @@ Dodatkowo, każdy z typów pracowników posiada dodatkową indywidualną cechę:
 - Mkt. - liczba obserwujących na mediach społecznościowych (liczba całkowita)
 - Rob. - rozmiar buta (załóżmy, że jest to liczba zmiennoprzecinkowa)
 
-Cecha ta powinna być drukowana przy wyświetlaniu pracowników, ale nie ma znaczenia dla funkcjonowania firmy (autor w mało subtelny sposób wymusza implementację poszczególnych typów zawodów jako osobne klasy).
+Gra powinna dać możliwość wyświetlenia listy zatrudnionych pracowników wraz z ich cechami (kolejność może być dowolna).
 
 ### Pojemność magazynu
 Pojemność magazynu równa jest iloczynowi liczby magazynierów i stałej `CMag`.

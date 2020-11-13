@@ -4,10 +4,10 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>340</x>
-      <y>90</y>
-      <w>470</w>
-      <h>250</h>
+      <x>530</x>
+      <y>220</y>
+      <w>210</w>
+      <h>150</h>
     </coordinates>
     <panel_attributes>Gra
 --
@@ -15,12 +15,6 @@
 +get_stan() : bool
 
 -tick() : void
--drukuj_pracownikow() const : void
--wez_kredyt(double kwota, int czas_splaty) : void
--zatrudnij_inz (const std::string&amp; imie, const std::string&amp; wydzial) : void
--zatrudnij_Mag (const std::string&amp; imie, bool woz_widl) : void
--zatrudnij_Mkt (const std::string&amp; imie, int follows) : void
--zatrudnij_Rob (const std::string&amp; imie, double but) : void
 --
 
 -stan : bool
@@ -69,7 +63,7 @@ historia_przych : double[N]
     <id>UMLClass</id>
     <coordinates>
       <x>890</x>
-      <y>170</y>
+      <y>220</y>
       <w>170</w>
       <h>100</h>
     </coordinates>
@@ -86,7 +80,7 @@ historia_przych : double[N]
     <id>UMLClass</id>
     <coordinates>
       <x>370</x>
-      <y>410</y>
+      <y>430</y>
       <w>160</w>
       <h>90</h>
     </coordinates>
@@ -102,7 +96,7 @@ historia_przych : double[N]
     <id>UMLClass</id>
     <coordinates>
       <x>370</x>
-      <y>670</y>
+      <y>690</y>
       <w>160</w>
       <h>90</h>
     </coordinates>
@@ -118,7 +112,7 @@ historia_przych : double[N]
     <id>UMLClass</id>
     <coordinates>
       <x>560</x>
-      <y>410</y>
+      <y>430</y>
       <w>160</w>
       <h>90</h>
     </coordinates>
@@ -134,7 +128,7 @@ historia_przych : double[N]
     <id>UMLClass</id>
     <coordinates>
       <x>560</x>
-      <y>670</y>
+      <y>690</y>
       <w>160</w>
       <h>90</h>
     </coordinates>
@@ -150,7 +144,7 @@ historia_przych : double[N]
     <id>UMLPackage</id>
     <coordinates>
       <x>340</x>
-      <y>370</y>
+      <y>390</y>
       <w>410</w>
       <h>410</h>
     </coordinates>
@@ -161,7 +155,7 @@ historia_przych : double[N]
     <id>Relation</id>
     <coordinates>
       <x>740</x>
-      <y>580</y>
+      <y>600</y>
       <w>80</w>
       <h>30</h>
     </coordinates>
@@ -172,29 +166,29 @@ historia_przych : double[N]
     <id>Relation</id>
     <coordinates>
       <x>960</x>
-      <y>260</y>
+      <y>310</y>
       <w>30</w>
-      <h>120</h>
+      <h>70</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;&gt;</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;100.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>800</x>
-      <y>250</y>
-      <w>70</w>
-      <h>130</h>
+      <x>730</x>
+      <y>280</y>
+      <w>140</w>
+      <h>100</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;50.0;10.0;50.0;110.0</additional_attributes>
+    <additional_attributes>10.0;10.0;120.0;10.0;120.0;80.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
       <x>460</x>
-      <y>540</y>
+      <y>560</y>
       <w>170</w>
       <h>90</h>
     </coordinates>
@@ -210,7 +204,7 @@ historia_przych : double[N]
     <id>Relation</id>
     <coordinates>
       <x>410</x>
-      <y>490</y>
+      <y>510</y>
       <w>70</w>
       <h>90</h>
     </coordinates>
@@ -221,7 +215,7 @@ historia_przych : double[N]
     <id>Relation</id>
     <coordinates>
       <x>410</x>
-      <y>600</y>
+      <y>620</y>
       <w>70</w>
       <h>90</h>
     </coordinates>
@@ -232,7 +226,7 @@ historia_przych : double[N]
     <id>Relation</id>
     <coordinates>
       <x>620</x>
-      <y>600</y>
+      <y>620</y>
       <w>70</w>
       <h>90</h>
     </coordinates>
@@ -243,7 +237,7 @@ historia_przych : double[N]
     <id>Relation</id>
     <coordinates>
       <x>620</x>
-      <y>490</y>
+      <y>510</y>
       <w>70</w>
       <h>90</h>
     </coordinates>
@@ -253,12 +247,12 @@ historia_przych : double[N]
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>560</x>
-      <y>330</y>
+      <x>620</x>
+      <y>360</y>
       <w>30</w>
-      <h>80</h>
+      <h>70</h>
     </coordinates>
     <panel_attributes>lt=.&gt;</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
   </element>
 </diagram>
