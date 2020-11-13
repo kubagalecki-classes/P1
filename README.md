@@ -99,4 +99,4 @@ Pozwoli to uprościć zarządzanie pamięcią: wystarczy statyczna alokacja.
 ## Przykładowa implementacja
 Poniżej przedstawiono przykładowy schemat implementacji powyższej gry, który ilustruje, w którym miejscu można użyć wymaganej funkcjonalności.
 
-![projekt_8p](P1_8p_diag.eps)
+![projekt_8p](P1_8p_diag.png)
