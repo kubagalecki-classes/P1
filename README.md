@@ -1,6 +1,6 @@
 # Projekt I
 ## Opis zadania
-Projektu polega na napisaniu bardzo prostej gry ekonomicznej (symulacji przedsiębiorstwa), rozgrywanej w konsoli.
+Projekt polega na napisaniu bardzo prostej gry ekonomicznej (symulacji przedsiębiorstwa), rozgrywanej w konsoli.
 Gracz prowadzi swoją firmę, a celem gry jest osiągnięcie określonej wartości spółki.
 Firma produkuje produkt, który magazynuje i sprzedaje.
 Może ona zatrudniać różne typy pracowników, a także brać kredyty.
@@ -23,7 +23,7 @@ Każdy pracownik ma imię oraz ustalone wynagrodzenie, które musi zostać wypł
 Cechy te ustalane są w chwili zatrudnienia danego pracownika (mogą, ale nie muszą być losowe).
 Gra powinna dać możliwość wyświetlenia listy zatrudnionych pracowników wraz z ich cechami (kolejność może być dowolna).
 
-Każdy typ pracownika posiada ma zdefiniowaną stałą wydajności, ustalaną w jednym miejscu w kodzie (zapewne jako stałe pole statyczne odpowiednich klas).
+Każdy typ pracownika posiada zdefiniowaną stałą wydajności, ustalaną w jednym miejscu w kodzie (zapewne jako stałe pole statyczne odpowiednich klas).
 Stałe wydajności oznaczmy (w kolejności zawodów wymienionej wyżej): `CI`, `CMag`, `CMkt`, `CR`.
 
 Dodatkowo, każdy z typów pracowników posiada dodatkową indywidualną cechę:
@@ -45,7 +45,7 @@ Popyt na produkty równy jest iloczynowi liczby marketerów i stałej `CMkt`.
 
 ### Sprzedaż produktów
 Sprzedaż odbywa się wg. następującego schematu:
-1. Teoretycznie możliwa iczba wyprodukowanych w danym miesiącu `Produktów` równa jest iloczynowi liczby robotników i stałej `CR`.
+1. Teoretycznie możliwa iczba wyprodukowanych w danym miesiącu produktów równa jest iloczynowi liczby robotników i stałej `CR`.
 2. Liczba faktycznie wyprodukowanych w danym miesiącu produktów równa jest mniejszej z wartości: pojemność magazynu, teoretycznie możliwa liczba wyprodukowanych produktów.
 3. Liczba sprzedanych w danym miesiącu produktów równa jest mniejszej z wartości: popyt, liczba faktycznie wyprodukowanych produktów.
 4. Przychód firmy równy jest iloczynowi liczby sprzedanych produktów i ceny produktu.
@@ -66,7 +66,7 @@ Dodatkowo, całkowite zadłużenie nie może przekroczyć wartości `M` razy war
 ### Dochód
 W każdym miesiącu stan konta gracza zwiększany (lub zmniejszany) jest o kwotę dochodu, liczoną wg. wzoru:
 
-dochód = przchód - wynagrodzenie pracowników - raty zaciągniętych pożyczek
+dochód = przychód - wynagrodzenie pracowników - raty zaciągniętych pożyczek
 
 ### Stan początkowy
 Na początku gry firma gracza posiada po jednym pracowniku każdego rodzaju oraz stałą (ustaloną w programie) kwotę na koncie.
@@ -90,11 +90,11 @@ Dokładniej:
 - Program nie kompiluje się lub nie spełnia przedstawionych wyżej wymagań - 0p.
 - Program kompiluje się i zachowuje się zgodnie z oczekiwaniami - 8p.
 - Program używa wirtualnego polimorfizmu - 11p.
-- Program używa wirtualnego polimorfizmu i `std::unique_ptr` oraz `std::shared_ptr` - 13p.
+- Program używa wirtualnego polimorfizmu i `std::unique_ptr` oraz `std::make_unique` - 13p.
 - Program nie używa wirtualnego polimorfizmu, lecz `std::variant` i `std::visit` - 15p.
 
 Uwaga: dopuszczalne jest narzucanie odgórnego limitu pracowników, liczby wziętych kredytów itp.
-Pozwoli to uprościć zarządzanie pamięcią: wystarczy statyczna alokacja.
+Pozwoli to uprościć zarządzanie pamięcią: wystarczy jedna alokacja (nie trzeba dynamicznie zwiększać rozmiarów tablic w miarę jak przybywa pracowników itp.).
 
 ## Przykładowa implementacja
 Poniżej przedstawiono przykładowy schemat implementacji powyższej gry, który ilustruje, w którym miejscu można użyć wymaganej funkcjonalności.
