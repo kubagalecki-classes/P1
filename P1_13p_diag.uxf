@@ -24,7 +24,7 @@
 --
 
 -stan : bool
--firma : Firma*</panel_attributes>
+-firma : std::unique_ptr&lt;Firma&gt;</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -54,10 +54,10 @@
 --
 
 -stan_konta : double
--kredyty : Kredyt[ ]
+-kredyty : std::unqiue_ptr&lt;Kredyt[]&gt;
 
 -n_prac : int
--prac : Pracownik*[ ]
+-prac : std::unqiue_ptr&lt;Pracownik*[]&gt;
 
 historia_przych : double[N]
 </panel_attributes>

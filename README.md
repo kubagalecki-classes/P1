@@ -97,6 +97,22 @@ Uwaga: dopuszczalne jest narzucanie odgórnego limitu pracowników, liczby wzię
 Pozwoli to uprościć zarządzanie pamięcią: wystarczy jedna alokacja (nie trzeba dynamicznie zwiększać rozmiarów tablic w miarę jak przybywa pracowników itp.).
 
 ## Przykładowa implementacja
-Poniżej przedstawiono przykładowy schemat implementacji powyższej gry, który ilustruje, w którym miejscu można użyć wymaganej funkcjonalności.
+Poniżej przedstawiono przykładowe schematy struktury klas, które mogą być pomocne przy wykonywaniu projektu.
+Należy traktować je jako źródła inspiracji, nie sztywne wymagania.
+W schematach pominięto także konstruktory i destruktory klas (dla części klas może być konieczne ich zdefiniowanie).
+
+Projekt za 8p:
 
 ![projekt_8p](P1_8p_diag.png)
+
+Projekt za 11p:
+
+![projekt_8p](P1_11p_diag.png)
+
+Projekt za 13p:
+
+![projekt_8p](P1_13p_diag.png)
+
+Projekt za 15p:
+
+![projekt_8p](P1_15p_diag.png)
