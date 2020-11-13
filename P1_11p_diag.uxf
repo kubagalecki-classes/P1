@@ -33,7 +33,7 @@
       <x>800</x>
       <y>360</y>
       <w>340</w>
-      <h>420</h>
+      <h>440</h>
     </coordinates>
     <panel_attributes>Firma
 --
@@ -54,6 +54,8 @@
 --
 
 -stan_konta : double
+
+-n_kredytow : int
 -kredyty : Kredyt[ ]
 
 -n_prac : int

@@ -33,7 +33,7 @@
       <x>935</x>
       <y>198</y>
       <w>374</w>
-      <h>594</h>
+      <h>649</h>
     </coordinates>
     <panel_attributes>Firma
 --
@@ -57,7 +57,9 @@
 --
 
 -stan_konta : double
+
 -kredyty : Kredyt[ ]
+-n_kredytow : int
 
 -n_inz : int
 -n_mag : int

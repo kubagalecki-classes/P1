@@ -33,7 +33,7 @@
       <x>730</x>
       <y>350</y>
       <w>340</w>
-      <h>420</h>
+      <h>440</h>
     </coordinates>
     <panel_attributes>Firma
 --
@@ -54,6 +54,8 @@
 --
 
 -stan_konta : double
+
+-n_kredytow : int
 -kredyty : std::unique_ptr&lt;Kredyt[ ]&gt;
 
 -n_prac : int
@@ -67,7 +69,7 @@ historia_przych : double[N]
     <id>UMLClass</id>
     <coordinates>
       <x>820</x>
-      <y>800</y>
+      <y>830</y>
       <w>170</w>
       <h>100</h>
     </coordinates>
@@ -170,12 +172,12 @@ historia_przych : double[N]
     <id>Relation</id>
     <coordinates>
       <x>890</x>
-      <y>760</y>
+      <y>780</y>
       <w>30</w>
-      <h>60</h>
+      <h>70</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;&gt;</panel_attributes>
-    <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
