@@ -4,10 +4,10 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>363</x>
-      <y>308</y>
-      <w>528</w>
-      <h>176</h>
+      <x>682</x>
+      <y>330</y>
+      <w>176</w>
+      <h>165</h>
     </coordinates>
     <panel_attributes>Gra
 --
@@ -71,8 +71,8 @@ historia_przych : double[N]
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>671</x>
-      <y>176</y>
+      <x>682</x>
+      <y>198</y>
       <w>187</w>
       <h>110</h>
     </coordinates>
@@ -178,34 +178,34 @@ historia_przych : double[N]
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>847</x>
-      <y>242</y>
-      <w>110</w>
+      <x>858</x>
+      <y>253</y>
+      <w>99</w>
       <h>33</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;70.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>847</x>
+      <y>396</y>
+      <w>110</w>
+      <h>33</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;80.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>880</x>
-      <y>374</y>
-      <w>77</w>
-      <h>33</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;50.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>649</x>
-      <y>473</y>
-      <w>33</w>
-      <h>77</h>
+      <x>616</x>
+      <y>440</y>
+      <w>88</w>
+      <h>110</h>
     </coordinates>
     <panel_attributes>lt=.&gt;</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
+    <additional_attributes>60.0;10.0;10.0;10.0;10.0;80.0</additional_attributes>
   </element>
 </diagram>
