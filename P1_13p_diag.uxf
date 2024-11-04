@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<diagram program="umlet" version="13.3">
+<diagram program="umlet" version="15.1">
   <zoom_level>10</zoom_level>
   <element>
     <id>UMLClass</id>
@@ -18,7 +18,7 @@
 --
 
 -stan : bool
--firma : std::unique_ptr&lt;Firma&gt;</panel_attributes>
+-firma : Firma</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -48,14 +48,15 @@
 --
 
 -stan_konta : double
-
 -n_kredytow : int
--kredyty : std::unqiue_ptr&lt;Kredyt[]&gt;
+-kredyty : std::unique_ptr&lt;Kredyt[]&gt;
 
 -n_prac : int
--prac : std::unqiue_ptr&lt;Pracownik*[]&gt;
+-prac : std::unique_ptr&lt;
+              std::unique_ptr&lt;Pracownik&gt;[]
+           &gt;
 
-historia_przych : double[N]
+historia_przych : std::unique_ptr&lt;double[]&gt;
 </panel_attributes>
     <additional_attributes/>
   </element>
@@ -81,7 +82,7 @@ historia_przych : double[N]
     <coordinates>
       <x>400</x>
       <y>400</y>
-      <w>160</w>
+      <w>170</w>
       <h>90</h>
     </coordinates>
     <panel_attributes>Inz
@@ -97,7 +98,7 @@ historia_przych : double[N]
     <coordinates>
       <x>400</x>
       <y>660</y>
-      <w>160</w>
+      <w>170</w>
       <h>90</h>
     </coordinates>
     <panel_attributes>Mag
@@ -113,7 +114,7 @@ historia_przych : double[N]
     <coordinates>
       <x>590</x>
       <y>400</y>
-      <w>160</w>
+      <w>170</w>
       <h>90</h>
     </coordinates>
     <panel_attributes>Mkt
@@ -129,7 +130,7 @@ historia_przych : double[N]
     <coordinates>
       <x>590</x>
       <y>660</y>
-      <w>160</w>
+      <w>170</w>
       <h>90</h>
     </coordinates>
     <panel_attributes>Rob
